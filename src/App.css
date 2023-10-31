@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+#about_me_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+    
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about_me_little_containers{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 27rem;
+    height:18rem;
+    border-radius: 2rem;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#School_logo{
+    width: 7rem;
+    height: 7rem;
+    margin-top: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#university_name {
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: .75rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
-.App-link {
-  color: #61dafb;
+#School_info_container {
+    text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.School_information {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: .5rem;
 }
