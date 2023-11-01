@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio_website/static/css/main.0702dbd1.css",
-    "main.js": "/portfolio_website/static/js/main.c854aebb.js",
+    "main.css": "/portfolio_website/static/css/main.ab233e7b.css",
+    "main.js": "/portfolio_website/static/js/main.78337437.js",
+    "static/media/Jaskarn_Dhillon_picture.png": "/portfolio_website/static/media/Jaskarn_Dhillon_picture.1c1945950b7ad5fe84c5.png",
     "static/media/UIC_LOGO.svg": "/portfolio_website/static/media/UIC_LOGO.618c5e310157008c05027badb62b9e66.svg",
+    "static/media/iconmonstr-github-1.svg": "/portfolio_website/static/media/iconmonstr-github-1.04be58c17b3d5e9744424d414240dd85.svg",
     "index.html": "/portfolio_website/index.html",
-    "main.0702dbd1.css.map": "/portfolio_website/static/css/main.0702dbd1.css.map",
-    "main.c854aebb.js.map": "/portfolio_website/static/js/main.c854aebb.js.map"
+    "static/media/iconmonstr-linkedin-3.svg": "/portfolio_website/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
+    "static/media/Gmail_icon.svg": "/portfolio_website/static/media/Gmail_icon.cf6e9da6207069eaa596237538127bcb.svg",
+    "main.ab233e7b.css.map": "/portfolio_website/static/css/main.ab233e7b.css.map",
+    "main.78337437.js.map": "/portfolio_website/static/js/main.78337437.js.map"
   },
   "entrypoints": [
-    "static/css/main.0702dbd1.css",
-    "static/js/main.c854aebb.js"
+    "static/css/main.ab233e7b.css",
+    "static/js/main.78337437.js"
   ]
 }
