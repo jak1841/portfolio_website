@@ -15,6 +15,12 @@
     height:18rem;
     border-radius: 2rem;
     align-items: center;
+    transition: all 0.3s;
+}
+
+.about_me_little_containers:hover{
+    width: 29rem;
+    height:19rem;
 }
 
 #School_logo{
@@ -33,6 +39,8 @@
 }
 
 #School_info_container {
+    display: flex;
+    flex-direction: column;
     text-align: left;
 }
 
@@ -43,3 +51,91 @@
     font-size: 1rem;
     margin-top: .5rem;
 }
+
+#profile_pic_container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: black;
+    width: 5rem;
+    height: 5rem;
+    overflow: hidden;
+    
+}
+
+#profile_pic {
+    color: white;
+    width: 5.1rem;
+    height: 5.1rem;
+    object-fit: cover
+}
+
+#summary_description_container {
+    margin-top: .75rem;
+    display: flex;
+    background-color: lightgray;
+    width: 20rem;
+    height:7rem;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#summary_description {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: .9rem;
+}
+
+#links_and_contact_info_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+    gap: 1rem;
+
+}
+
+.about_me_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 2rem;
+    gap:.35rem;
+    transition: all 0.3s;
+}
+
+.about_me_buttons:hover {
+    width: 8rem;
+    height: 3.2rem
+}
+
+#email_container{
+    border-radius: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: .65rem;
+    gap:.5rem;
+    
+}
+
+#gmail_logo{
+    width: 2rem;
+    height: 1.5rem;
+    object-fit: cover
+}
+
+

@@ -1,5 +1,9 @@
 import './App.css';
 import UIC_LOGO from './images/UIC_LOGO.svg';
+import Jaskarn_pic from './images/Jaskarn_Dhillon_picture.png'
+import linkedIn_logo from './images/iconmonstr-linkedin-3.svg'
+import github_logo from './images/iconmonstr-github-1.svg'
+import gmail_logo from './images/Gmail_icon.svg'
 
 export const About_Me = () => {
 
@@ -21,8 +25,40 @@ export const About_Me = () => {
 }
 
 const Summary = () => {
+
+    
+
     return (
         <div className='about_me_little_containers'>
+            <div id="profile_pic_container">
+                <img id="profile_pic" src={Jaskarn_pic} alt="Jaskarn Dhillon picture"></img>
+            </div>
+            <div id="summary_description_container">
+                <p id="summary_description">Hello I am Jaskarn Dhillon. I am a Software Engineer and aspiring Mobile Application Developer. I Spend most of my time learning Math and programming. </p>
+            </div>
+            <div id="links_and_contact_info_container" >
+                <a style={{ textDecoration: 'none' }} href="https://www.linkedin.com/in/jaskarn-dhillon16" target='_blank'>
+                    <button className='about_me_buttons'>
+                        <img src={linkedIn_logo}></img>
+                        <p>LinkedIn</p>
+                    </button>
+                </a>
+                
+                <a style={{ textDecoration: 'none' }} href="https://github.com/jak1841" target='_blank'>
+                    <button className='about_me_buttons'>
+                        <img src={github_logo}></img>
+                        <p>Github</p>
+                    </button>
+                </a>
+
+                <div id="email_container">
+                    <img id="gmail_logo" src={gmail_logo}></img>
+                    <p>Jaskarnd16@gmail.com</p>
+                </div>
+
+
+            </div>
+
             
         </div>
     );
@@ -32,17 +68,20 @@ const Education = () => {
     return(
         <div className='about_me_little_containers'>
             <img src={UIC_LOGO} alt="UIC LOGO" id='School_logo'></img>
-            <p1 id="university_name">University of Illinois at Chicago</p1>
+            <p id="university_name">University of Illinois at Chicago</p>
             <div id="School_info_container">
-                <p1 className="School_information">Bachelors of Science in Computer Science</p1>
-                <br></br>
-                <p1 className="School_information">GPA: 3.88/4.00</p1>
-                <br></br>
-                <p1 className="School_information">Deans List 2021, 2022, 2023</p1>
-                <br></br>
-                <p1 className="School_information">Expected Graduation: May 2024</p1>
+                <p className="School_information">Bachelors of Science in Computer Science <br></br> 
+                Expected Graduation: May 2024 <br></br>
+                Deans List: 2021, 2022, 2023 <br></br>
+                GPA: 3.88/4.00 </p>
+                
+
+
             </div>
         </div>
     );
 
 }
+
+
+
