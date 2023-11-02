@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {About_Me} from './App.js'
+import {About_Me} from './About_Me.js'
+import { My_project } from './My_Projects.js';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -11,6 +13,7 @@ const Overall_structure = () => {
     <About_Me/>
 
     <h1>My Projects</h1>
+    <My_project/>
 
     <h1>My Experience</h1>
 

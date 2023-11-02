@@ -1,4 +1,4 @@
-import './App.css';
+import './About_Me.css';
 import UIC_LOGO from './images/UIC_LOGO.svg';
 import Jaskarn_pic from './images/Jaskarn_Dhillon_picture.png'
 import linkedIn_logo from './images/iconmonstr-linkedin-3.svg'
