@@ -1,0 +1,15 @@
+
+#root_container_my_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#email{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 10rem;
+}

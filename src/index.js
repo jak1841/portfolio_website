@@ -4,6 +4,7 @@ import './index.css';
 import {About_Me} from './About_Me.js';
 import { My_project } from './My_Projects.js';
 import {My_experience} from './My_experience.js';
+import { My_contact } from './My_contact.js';
 
 import {My_skills} from './My_skills.js';
 
@@ -23,6 +24,9 @@ const Overall_structure = () => {
 
     <h1>My Skills</h1>
     <My_skills/>
+
+    <h1>Contact Me</h1>
+    <My_contact/>
     
 
   </div>);
