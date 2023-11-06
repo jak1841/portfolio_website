@@ -57,9 +57,10 @@
 .Experience_description {
     height: 7.5rem;
     width: 18rem;
-    margin-top: .5rem;
+    margin-top: 1rem;
     margin-left: 1.5rem;
     font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
 }
 
 .Company_Logo_container{
@@ -69,7 +70,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: .05rem solid black;
+}
+
+.company_image{
+    height: 75%;
+    width: 100%;
 }
 
 

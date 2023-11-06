@@ -3,7 +3,7 @@ import react_logo from './images/react_logo.svg';
 import kotlin_logo from './images/kotlin-1-logo-svgrepo-com.svg';
 import html_logo from './images/html-5-logo-svgrepo-com.svg';
 import css_logo from './images/css-3-logo-svgrepo-com.svg';
-import php_logo from './images/java-svgrepo-com.svg';
+import php_logo from './images/php-svgrepo-com.svg';
 import python_logo from './images/python-svgrepo-com.svg';
 import javascript_logo from './images/javascript-logo-svgrepo-com.svg';
 import java_logo from './images/java-svgrepo-com.svg';

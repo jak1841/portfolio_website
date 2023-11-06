@@ -34,7 +34,7 @@ const Summary = () => {
                 <img id="profile_pic" src={Jaskarn_pic} alt="Jaskarn Dhillon picture"></img>
             </div>
             <div id="summary_description_container">
-                <p id="summary_description">Hello I am Jaskarn Dhillon. I am a Software Engineer and aspiring Mobile Application Developer. I Spend most of my time learning Math and programming. </p>
+                <p id="summary_description">Hello I am Jaskarn Dhillon. I am a aspiring Software Engineer and Mobile Application Developer. I Spend most of my time learning Math and programming. </p>
             </div>
             <div id="links_and_contact_info_container" >
                 <a style={{ textDecoration: 'none' }} href="https://www.linkedin.com/in/jaskarn-dhillon16" target='_blank'>
@@ -51,10 +51,7 @@ const Summary = () => {
                     </button>
                 </a>
 
-                <div id="email_container">
-                    <img id="gmail_logo" src={gmail_logo}></img>
-                    <p>Jaskarnd16@gmail.com</p>
-                </div>
+                
 
 
             </div>
