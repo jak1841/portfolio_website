@@ -1,0 +1,66 @@
+#root_My_skills_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2.5rem;
+}
+
+.skills_container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 35rem;
+    height:16rem;
+    border-radius: 2rem;
+    transition: all 0.3s;
+    gap:1rem;
+    margin-bottom: 5rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .skills_container:hover{
+        width: 36rem;
+        height:17rem;
+    }
+}
+
+
+
+.skills_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+.skills_cell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 7rem;
+    transition: all 0.3s;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .skills_cell:hover{
+        width: 6rem;
+        height: 8rem;
+    }
+}
+
+.skills_logo{
+    max-width: 100%;
+    max-height: 50%;
+
+}
+
+.skills_name {
+    font-family: 'Open Sans', sans-serif;
+    gap: 0rem;
+    font-size: 1rem;
+    color:"#d3d3d3";
+}
+

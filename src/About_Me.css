@@ -18,9 +18,11 @@
     transition: all 0.3s;
 }
 
-.about_me_little_containers:hover{
-    width: 29rem;
-    height:19rem;
+@media (hover: hover) and (pointer: fine) {
+    .about_me_little_containers:hover{
+        width: 29rem;
+        height:19rem;
+    }
 }
 
 #School_logo{
@@ -114,9 +116,11 @@
     transition: all 0.3s;
 }
 
-.about_me_buttons:hover {
-    width: 8rem;
-    height: 3.2rem
+@media (hover: hover) and (pointer: fine) {
+    .about_me_buttons:hover {
+        width: 8rem;
+        height: 3.2rem
+    }
 }
 
 #email_container{

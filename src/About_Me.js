@@ -74,9 +74,6 @@ const Education = () => {
                 Expected Graduation: May 2024 <br></br>
                 Deans List: 2021, 2022, 2023 <br></br>
                 GPA: 3.88/4.00 </p>
-                
-
-
             </div>
         </div>
     );

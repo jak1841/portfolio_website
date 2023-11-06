@@ -16,9 +16,11 @@
     gap:1rem;
 }
 
-.project_container:hover{
-    width: 42rem;
-    height:17rem;
+@media (hover: hover) and (pointer: fine) {
+    .project_container:hover{
+        width: 42rem;
+        height:17rem;
+    }
 }
 
 .project_text_and_link_container{
@@ -75,9 +77,11 @@
     transition: all 0.3s;
 }
 
-.link_buttons:hover {
-    width: 8rem;
-    height: 3.2rem
+@media (hover: hover) and (pointer: fine) {
+    .link_buttons:hover {
+        width: 8rem;
+        height: 3.2rem
+    }
 }
 
 .youtube_icon {
@@ -94,3 +98,4 @@
     align-items: center;
     border: .05rem solid black;
 }
+
